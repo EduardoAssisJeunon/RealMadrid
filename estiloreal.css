@@ -1,0 +1,52 @@
+body{
+	background-image: url("Fundoazul.jpg");
+	-webkit-background-size:cover;
+	   	-moz-background-size: cover;
+	   	-o-background-size: cover;
+	   	background-size: cover;
+	   	color: white;
+}
+h1{
+	text-align: center;
+	 color: white;
+}
+h2{
+text-align: center;
+color: white;
+}
+li{
+	display: inline-block; 
+	font-family: Arial;
+	font-size: 28;
+	color: white;
+
+}
+img{
+	width: 200px;
+	height: 250px;
+}
+figure figcaption{
+	           cursor: hand;
+            	opacity: 0;
+                position: absolute;
+            	top: 1px;
+            	
+            	color: white;
+            	background-color: rgba(0,0,0,0.3);
+            	padding: 30px;
+            	
+            	transition: opacity 0.5s;
+            }
+            figure:hover figcaption{
+            	opacity: 1;
+            }
+            figure{
+            	position: relative;
+                  display: inline-block;
+            }
+            a{
+            	text-decoration: none;
+            }
+
+
+
